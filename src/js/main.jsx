@@ -9,10 +9,16 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Portada from './components/Portada';
+import Cartas from './components/Cartas';
+import Footer from './components/Footer';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <Navbar/>
+    <Portada/>
+    <Cartas/>
+    <Footer/>
   </React.StrictMode>,
 )
